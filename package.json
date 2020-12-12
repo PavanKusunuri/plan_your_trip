@@ -1,0 +1,22 @@
+{
+  "name": "tours-website",
+  "version": "1.0.0",
+  "description": "Landing page for tours website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavanKusunuri/tours_website.git"
+  },
+  "author": "Pavan Kusunuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavanKusunuri/tours_website/issues"
+  },
+  "homepage": "https://github.com/PavanKusunuri/tours_website#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

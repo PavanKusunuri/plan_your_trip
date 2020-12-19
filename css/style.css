@@ -59,6 +59,12 @@ body {
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out; }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #7ed56f, #28b485); }
+
 body {
   font-family: 'Lato', sans-sarif;
   font-weight: 400;
@@ -138,9 +144,18 @@ body {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+  .row::after {
+    content: '';
+    display: table;
+    clear: both; }
   .row .col-1-of-2 {
     width: calc((100% - gutter-horizontal)/2);
     background-color: orangered;
     float: left; }
     .row .col-1-of-2:not(:last-child) {
       margin-right: 6rem; }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 24rem 0;
+  margin-top: -20vh; }

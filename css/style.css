@@ -215,11 +215,8 @@ body {
   position: relative;
   height: 52rem; }
   .card__side {
-    background-color: white;
-    height: 50rem;
-    color: #fff;
-    font-size: 2rem;
-    transition: all .8s;
+    height: 52rem;
+    transition: all .8s ease;
     position: absolute;
     top: 0;
     left: 0;
@@ -250,6 +247,7 @@ body {
     font-size: 2.8rem;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: right;
     color: #fff;
     position: absolute;
     top: 12rem;
@@ -272,7 +270,7 @@ body {
         font-size: 1.5rem;
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
-          border-bottom: 1px solid #fff; }
+          border-bottom: 1px solid #eee; }
 
 .header {
   height: 95vh;

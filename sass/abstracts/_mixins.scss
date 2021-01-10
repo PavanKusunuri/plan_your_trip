@@ -27,3 +27,30 @@
         @content
     }
 }
+
+
+/*  
+$ breakpoint argument choices:
+//  -  phone
+//  -  tab-portrait
+//  - tab-landscape
+//  - big-desktop
+*/
+
+
+
+@mixin respond($breakpoint) {
+@if $breakpoint == phone {
+     @media (max-width: 600px) { @content }
+ }
+ @if $breakpoint == tab-portrait {
+    @media (max-width: 900px) { @content }
+}
+@if $breakpoint == tab-landscape {
+    @media (max-width: 1200px) { @content }
+}
+@if $breakpoint == big-desktop {
+    @media (min-width: 1800px) { @content }
+}
+
+}

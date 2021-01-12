@@ -66,13 +66,27 @@
     background-image: linear-gradient(
         105deg,
         rgba($color-white, .9) 0%,
-        rgba($color-white, .9) 70%,
-        transparent 70%),
-        url(../img/nat-10.jpg)
-    );
+        rgba($color-white, .9) 65%,
+        transparent 65%),
+        url(../img/nat-10.jpg);
+    background-size: cover;
+}
+@include respond(tab-portrait) {
+    background-image: linear-gradient(
+        to right,
+        rgba($color-white, .9) 0%,
+        rgba($color-white, .9) 100%,
+        transparent 65%),
+        url(../img/nat-10.jpg);
 }
     &__form {
         width: 50%;
         padding: 6rem;
+        @include respond(tab-landscape) {
+            width: 65%;
+        }
+        @include respond(tab-portrait) {
+            width: 100%;
+        }
     }
 }

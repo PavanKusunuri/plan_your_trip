@@ -1,5 +1,5 @@
-# Plan Your Trip Website
- Tours Website is to check all latest tours and packages offered by a fortune 500 company to enthusiastice people who wish to travel with in budget.
+# Plan Your Trip
+ Plan your trip is an amazing website which displays the packages of trip for dream destinations with in budget.
 
 # Live 
 <h4>You can see the website live by clicking on the below link.</h4>

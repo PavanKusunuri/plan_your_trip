@@ -3,4 +3,4 @@
 
 # Live 
 <h4>You can see the website live by clicking on the below link.</h4>
-https://pavankusunuri.github.io/tours_website/
+https://pavankusunuri.github.io/plan_your_trip/

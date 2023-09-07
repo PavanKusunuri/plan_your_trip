@@ -1,9 +1,8 @@
 {
-  "name": "tours-website",
+  "name": "plan a trip",
   "version": "1.0.0",
-  "description": "Landing page for tours website",
+  "description": "Landing page for plan a trip website",
   "main": "index.js",
-  
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
@@ -14,10 +13,10 @@
   "author": "Pavan Kusunuri",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PavanKusunuri/tours_website/issues"
+    "url": "https://github.com/PavanKusunuri/plan_a_trip/issues"
   },
   "homepage": "https://github.com/PavanKusunuri/tours_website#readme",
   "dependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^9.0.0"
   }
 }

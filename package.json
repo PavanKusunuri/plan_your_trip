@@ -4,7 +4,8 @@
   "description": "Landing page for plan a trip website",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "sass sass/main.scss css/style.css --watch",
+    "start": "sass sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,6 @@
   },
   "homepage": "https://github.com/PavanKusunuri/tours_website#readme",
   "dependencies": {
-    "node-sass": "^9.0.0"
+    "sass": "^1.71.0"
   }
 }

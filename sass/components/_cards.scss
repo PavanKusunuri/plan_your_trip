@@ -36,6 +36,26 @@
             &-3 {
                 background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
             }
+
+            &-4 {
+                background-image: linear-gradient(to right bottom, $color-quaternary-light, $color-quaternary-dark);
+            }
+
+            &-5 {
+                background-image: linear-gradient(to right bottom, $color-quinary-light, $color-quinary-dark);
+            }
+
+            &-6 {
+                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+            }
+
+            &-7 {
+                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+            }
+
+            &-8 {
+                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+            }
         }
     }
   
@@ -61,17 +81,42 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            url(../img/nat-5.jpg);
+            url(../img/hp-shimla.jpg);
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            url(../img/nat-6.jpg);
+            url(../img/hp-manali.jpg);
         }
 
         &--3 {
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
-            url(../img/nat-7.jpg);
+            url(../img/hp-dharamshala.jpg);
+        }
+
+        &--4 {
+            background-image: linear-gradient(to right bottom, $color-quaternary-light, $color-quaternary-dark), 
+            url(../img/hp-spiti.jpg);
+        }
+
+        &--5 {
+            background-image: linear-gradient(to right bottom, $color-quinary-light, $color-quinary-dark), 
+            url(../img/hp-kasol.jpg);
+        }
+
+        &--6 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
+            url(../img/hp-dalhousie.jpg);
+        }
+
+        &--7 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
+            url(../img/hp-khajjiar.jpg);
+        }
+
+        &--8 {
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
+            url(../img/hp-kullu.jpg);
         }
     }
 
@@ -106,6 +151,36 @@
         }
 
         &--3 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-tertiary-light, .85), 
+            rgba($color-tertiary-dark, .85));
+        }
+
+        &--4 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-quaternary-light, .85), 
+            rgba($color-quaternary-dark, .85));
+        }
+
+        &--5 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-quinary-light, .85), 
+            rgba($color-quinary-dark, .85));
+        }
+
+        &--6 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-secondary-light, .85), 
+            rgba($color-secondary-dark, .85));
+        }
+
+        &--7 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-primary-light, .85), 
+            rgba($color-primary-dark, .85));
+        }
+
+        &--8 {
             background-image: linear-gradient(to right bottom, 
             rgba($color-tertiary-light, .85), 
             rgba($color-tertiary-dark, .85));

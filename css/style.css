@@ -386,6 +386,69 @@ body {
 .card__picture--8 {
   background-image: linear-gradient(to right bottom, #0cb8b6, #1a5276), url(../img/hp-kullu.jpg);
 }
+.card__picture--ka-1 {
+  background-image: linear-gradient(to right bottom, #ffd166, #f4a261), url(../img/ka-coorg.jpg);
+}
+.card__picture--ka-2 {
+  background-image: linear-gradient(to right bottom, #e91e8c, #8e0045), url(../img/ka-hampi.jpg);
+}
+.card__picture--ka-3 {
+  background-image: linear-gradient(to right bottom, #ff8c42, #c0390b), url(../img/ka-mysore.jpg);
+}
+.card__picture--ka-4 {
+  background-image: linear-gradient(to right bottom, #4a90d9, #2c3e8c), url(../img/ka-gokarna.jpg);
+}
+.card__picture--ka-5 {
+  background-image: linear-gradient(to right bottom, #0cb8b6, #1a5276), url(../img/ka-chikmagalur.jpg);
+}
+.card__picture--kl-1 {
+  background-image: linear-gradient(to right bottom, #0cb8b6, #1a5276), url(../img/kl-munnar.jpg);
+}
+.card__picture--kl-2 {
+  background-image: linear-gradient(to right bottom, #4a90d9, #2c3e8c), url(../img/kl-alleppey.jpg);
+}
+.card__picture--kl-3 {
+  background-image: linear-gradient(to right bottom, #ff8c42, #c0390b), url(../img/kl-wayanad.jpg);
+}
+.card__picture--kl-4 {
+  background-image: linear-gradient(to right bottom, #ffd166, #f4a261), url(../img/kl-kovalam.jpg);
+}
+.card__picture--kl-5 {
+  background-image: linear-gradient(to right bottom, #e91e8c, #8e0045), url(../img/kl-thekkady.jpg);
+}
+.card__picture--wb-1 {
+  background-image: linear-gradient(to right bottom, #4a90d9, #2c3e8c), url(../img/wb-darjeeling.jpg);
+}
+.card__picture--wb-2 {
+  background-image: linear-gradient(to right bottom, #0cb8b6, #1a5276), url(../img/wb-kalimpong.jpg);
+}
+.card__picture--wb-3 {
+  background-image: linear-gradient(to right bottom, #ff8c42, #c0390b), url(../img/wb-sundarbans.jpg);
+}
+.card__picture--tn-1 {
+  background-image: linear-gradient(to right bottom, #0cb8b6, #1a5276), url(../img/tn-ooty.jpg);
+}
+.card__picture--tn-2 {
+  background-image: linear-gradient(to right bottom, #e91e8c, #8e0045), url(../img/tn-madurai.jpg);
+}
+.card__picture--tn-3 {
+  background-image: linear-gradient(to right bottom, #ff8c42, #c0390b), url(../img/tn-rameswaram.jpg);
+}
+.card__picture--tn-4 {
+  background-image: linear-gradient(to right bottom, #ffd166, #f4a261), url(../img/tn-kodaikanal.jpg);
+}
+.card__picture--mh-1 {
+  background-image: linear-gradient(to right bottom, #ffd166, #f4a261), url(../img/mh-lonavala.jpg);
+}
+.card__picture--mh-2 {
+  background-image: linear-gradient(to right bottom, #4a90d9, #2c3e8c), url(../img/mh-mahabaleshwar.jpg);
+}
+.card__picture--mh-3 {
+  background-image: linear-gradient(to right bottom, #e91e8c, #8e0045), url(../img/mh-aurangabad.jpg);
+}
+.card__picture--mh-4 {
+  background-image: linear-gradient(to right bottom, #ff8c42, #c0390b), url(../img/mh-pune.jpg);
+}
 .card__heading {
   font-size: 2.8rem;
   font-weight: 300;
@@ -903,6 +966,49 @@ body {
     float: none;
   }
 }
+.footer__info-block {
+  padding-right: 2rem;
+}
+@media (max-width: 56.25em) {
+  .footer__info-block {
+    margin-bottom: 4rem;
+    padding-right: 0;
+  }
+}
+.footer__info-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ff8c42;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #777;
+}
+.footer__info-text {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+.footer__contact-list {
+  list-style: none;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #999;
+}
+.footer__contact-list li {
+  margin-bottom: 0.8rem;
+}
+.footer__careers-list {
+  list-style: none;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #999;
+}
+.footer__careers-list li {
+  margin-bottom: 0.6rem;
+}
 
 .row {
   max-width: 114rem;
@@ -1171,6 +1277,25 @@ body {
   .section-tours {
     padding: 20rem 0 10rem 0;
   }
+}
+.section-tours__state-heading {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #c0390b;
+  padding: 0.8rem 2.5rem;
+  border-left: 5px solid #e8511a;
+  background-color: rgba(255, 140, 66, 0.08);
+  margin-bottom: 3rem;
+}
+.section-tours__state-section {
+  margin-bottom: 6rem;
+}
+.section-tours__state-section:not(:last-of-type) {
+  padding-bottom: 6rem;
+  border-bottom: 1px solid #eee;
 }
 
 .section-stories {

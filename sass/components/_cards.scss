@@ -118,6 +118,79 @@
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
             url(../img/hp-kullu.jpg);
         }
+
+        // Karnataka
+        &--ka-1 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/ka-coorg.jpg);
+        }
+        &--ka-2 {
+            background-image: linear-gradient(to right bottom, $color-quaternary-light, $color-quaternary-dark), url(../img/ka-hampi.jpg);
+        }
+        &--ka-3 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/ka-mysore.jpg);
+        }
+        &--ka-4 {
+            background-image: linear-gradient(to right bottom, $color-quinary-light, $color-quinary-dark), url(../img/ka-gokarna.jpg);
+        }
+        &--ka-5 {
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/ka-chikmagalur.jpg);
+        }
+
+        // Kerala
+        &--kl-1 {
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/kl-munnar.jpg);
+        }
+        &--kl-2 {
+            background-image: linear-gradient(to right bottom, $color-quinary-light, $color-quinary-dark), url(../img/kl-alleppey.jpg);
+        }
+        &--kl-3 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/kl-wayanad.jpg);
+        }
+        &--kl-4 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/kl-kovalam.jpg);
+        }
+        &--kl-5 {
+            background-image: linear-gradient(to right bottom, $color-quaternary-light, $color-quaternary-dark), url(../img/kl-thekkady.jpg);
+        }
+
+        // West Bengal / Darjeeling
+        &--wb-1 {
+            background-image: linear-gradient(to right bottom, $color-quinary-light, $color-quinary-dark), url(../img/wb-darjeeling.jpg);
+        }
+        &--wb-2 {
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/wb-kalimpong.jpg);
+        }
+        &--wb-3 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/wb-sundarbans.jpg);
+        }
+
+        // Tamil Nadu
+        &--tn-1 {
+            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/tn-ooty.jpg);
+        }
+        &--tn-2 {
+            background-image: linear-gradient(to right bottom, $color-quaternary-light, $color-quaternary-dark), url(../img/tn-madurai.jpg);
+        }
+        &--tn-3 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/tn-rameswaram.jpg);
+        }
+        &--tn-4 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/tn-kodaikanal.jpg);
+        }
+
+        // Maharashtra / Pune
+        &--mh-1 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/mh-lonavala.jpg);
+        }
+        &--mh-2 {
+            background-image: linear-gradient(to right bottom, $color-quinary-light, $color-quinary-dark), url(../img/mh-mahabaleshwar.jpg);
+        }
+        &--mh-3 {
+            background-image: linear-gradient(to right bottom, $color-quaternary-light, $color-quaternary-dark), url(../img/mh-aurangabad.jpg);
+        }
+        &--mh-4 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/mh-pune.jpg);
+        }
     }
 
     &__heading {

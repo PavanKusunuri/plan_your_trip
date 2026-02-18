@@ -74,4 +74,52 @@
             float: none;
          }
     }
+
+    &__info-block {
+        padding-right: 2rem;
+        @include respond(tab-portrait) {
+            margin-bottom: 4rem;
+            padding-right: 0;
+        }
+    }
+
+    &__info-heading {
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $color-primary-light;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $color-grey-dark;
+    }
+
+    &__info-text {
+        font-size: 1.3rem;
+        line-height: 1.8;
+        color: $color-grey-dark-2;
+        margin-bottom: 0.5rem;
+    }
+
+    &__contact-list {
+        list-style: none;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        color: $color-grey-dark-2;
+
+        li {
+            margin-bottom: 0.8rem;
+        }
+    }
+
+    &__careers-list {
+        list-style: none;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        color: $color-grey-dark-2;
+
+        li {
+            margin-bottom: 0.6rem;
+        }
+    }
 }

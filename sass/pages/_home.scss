@@ -34,6 +34,28 @@
     @include respond(tab-portrait) {
         padding: 20rem 0 10rem 0;
     }
+
+    &__state-heading {
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: $color-primary-dark;
+        padding: 0.8rem 2.5rem;
+        border-left: 5px solid $color-primary;
+        background-color: rgba($color-primary-light, 0.08);
+        margin-bottom: 3rem;
+    }
+
+    &__state-section {
+        margin-bottom: 6rem;
+
+        &:not(:last-of-type) {
+            padding-bottom: 6rem;
+            border-bottom: 1px solid $color-grey-light-2;
+        }
+    }
 }
 
 .section-stories {
